@@ -1,4 +1,4 @@
-const aaa = document.querySelector(".div1");
+const aaa = document.querySelector(".barras");
 const navMenu = document.querySelector(".menu_Nav");
 
 aaa.addEventListener("click", ()=>{
