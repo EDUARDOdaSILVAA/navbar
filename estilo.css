@@ -1,6 +1,7 @@
 :root{
     --fundoheader: #1F2924;
     --letras: #41ad4e;
+    --fundotexto: #A4ADA7;
   }
 *{
     margin: 0;
@@ -12,6 +13,17 @@
 header{
     background-color: var(--fundoheader);
     
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.asidel{
+    background-color: var(--fundotexto);
+    position: fixed left;
+    width: var(--larguraside);
+    height: var(--alturaside);
+    border: 1px solid black;
 }
 li{
     list-style: none;
