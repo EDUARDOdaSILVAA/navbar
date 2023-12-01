@@ -2,6 +2,7 @@
     --fundoheader: #1F2924;
     --letras: #41ad4e;
     --fundotexto: #A4ADA7;
+    --corClara: white;
   }
 *{
     margin: 0;
@@ -23,7 +24,7 @@ header{
     position: fixed left;
     width: var(--larguraside);
     height: var(--alturaside);
-    border: 1px solid black;
+    border: 1px solid var(--fundoheader);
 }
 li{
     list-style: none;
@@ -50,10 +51,10 @@ a{
     gap: 60px;
 }
 .link_nav{
-    transition: 0.5s ease;
+    transition: 0.3s ease;
 }
 .link_nav:hover{
-    color: darkslategrey;
+    color:var(--corClara);
 }
 .barras{
     display: none;
@@ -87,7 +88,7 @@ a{
         top: 70px;
         gap: 0;
         border-radius: 0 0 20px 20px;
-        background-color:  rgb(2, 99, 10);
+        background-color: var(--fundoheader);
         text-align: center;
         flex-direction: column;
         width: 100%;
