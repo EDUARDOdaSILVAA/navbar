@@ -25,11 +25,35 @@ header{
     z-index: 1;
 }
 .aside{
+    
     background: url('https://media.tribunadointerior.com.br/2023/01/5abfa16c-utfpr-nova-2022-scaled.jpg') no-repeat center center fixed;
     background-size: cover;
     width: var(--larguraside);
     height: var(--alturaside);
+    text-align: center;
+    -webkit-text-stroke-width: 1.3px;
+    -webkit-text-stroke-color: #010101;
+    font-size: 180%; color: #ffff04;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
     
+    flex-wrap: wrap;
+}
+.h1_redondo{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 150px;
+    display: inline-block;
+    padding: 10px;
+    
+}
+.p_redondo{
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+    display: inline-block;
+    padding: 10px;
 }
 .amain{
     background: linear-gradient(to top, rgba(164, 173, 167, 1.5), rgba(164, 173, 167, 0.0)), url('https://media.tribunadointerior.com.br/2023/01/5abfa16c-utfpr-nova-2022-scaled.jpg') no-repeat center center fixed;
