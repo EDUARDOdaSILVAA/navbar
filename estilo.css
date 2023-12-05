@@ -6,6 +6,7 @@
     --larguraside: 100%;
     --alturaside: 100vh;
     --letras2: #828C8C;
+    --fundoutfo: rgb(212, 191, 2);
   }
 *{
     margin: 0;
@@ -45,7 +46,7 @@ header{
     color: #010101;
 }
 .conteudo{
-    background-color: var(--fundotexto);
+    background-color: var(--fundoutfo);
     width: var(--larguraside);
     height: var(--alturaside);
 }
@@ -64,7 +65,7 @@ header{
     padding: 10px;
 }
 .amain{
-    background: linear-gradient(to top, rgba(164, 173, 167, 1.5), rgba(164, 173, 167, 0.0)), url('https://media.tribunadointerior.com.br/2023/01/5abfa16c-utfpr-nova-2022-scaled.jpg') no-repeat center center fixed;
+    background: linear-gradient(to top, rgba(212, 191, 2, 1.5), rgba(212, 191, 2, 0.0)), url('https://media.tribunadointerior.com.br/2023/01/5abfa16c-utfpr-nova-2022-scaled.jpg') no-repeat center center fixed;
     background-size: cover;
     width: var(--larguraside);
     height: var(--alturaside);
