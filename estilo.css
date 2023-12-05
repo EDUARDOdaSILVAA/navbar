@@ -1,7 +1,7 @@
 :root{
     --fundoheader: #3F241C;
     --letras: #B03728;
-    --fundotexto: #A4ADA7;
+    --fundotexto: #ECD0A2;
     --corClara: white;
     --larguraside: 100%;
     --alturaside: 100vh;
@@ -19,6 +19,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    background-color: var(--fundotexto);
  
 }
 header{
