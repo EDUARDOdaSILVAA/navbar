@@ -8,3 +8,4 @@ aaa.addEventListener("click", ()=>{
 function navigateTo(page) {
     window.location.href = page;
   }
+//teste
