@@ -4,21 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="estilopersonagens.css">
     <title>Personagens</title>
 </head>
 <div class="container">
-    <header>
-        <nav class="navbar">
-            <a href="#" class="logo"onclick="navigateTo('index.html')">Esaú e Jacó</a>
-            <ul class="menu_Nav">
-                <li class="item_nav"><a href="#" class="link_nav" onclick="navigateTo('informacoes.html')">Informações</a></li>
-                <li class="item_nav"><a href="#" class="link_nav" onclick="navigateTo('personagens.html')">Personagens</a></li>
-                <li class="item_nav"><a href="#" class="link_nav" onclick="navigateTo('curso.html')">Curso</a></li>
-                <li class="item_nav"><a href="#" class="link_nav" onclick="navigateTo('resumo.html')">Resumo</a></li>
-            </ul>
-        </nav>
+    <header class="header" data-header>
+        <div class="banner"></div>
     </header>
-<body>
+    <nav class="navbar">
+        <a href="#" class="logo"onclick="navigateTo('index.html')">Esaú e Jacó</a>
+        <ul class="menu_Nav">
+            <li class="item_nav"><a href="#" class="link_nav" onclick="navigateTo('informacoes.html')">Informações</a></li>
+            <li class="item_nav"><a href="#" class="link_nav" onclick="navigateTo('personagens.html')">Personagens</a></li>
+            <li class="item_nav"><a href="#" class="link_nav" onclick="navigateTo('curso.html')">Curso</a></li>
+            <li class="item_nav"><a href="#" class="link_nav" onclick="navigateTo('resumo.html')">Resumo</a></li>
+        </ul>
+        <div class="barras">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+    <div class="containerpersonagens">
     <h2> Conheça alguns personagens do livro por meio de relatos dos mesmos</h2>
     <div class="personagens">
         <h1>Paulo</h1>
@@ -75,6 +82,8 @@
             Com carinho,
             
             Natividade</p>
+        </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
