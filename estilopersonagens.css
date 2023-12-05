@@ -1,0 +1,17 @@
+:root{
+    --alturadiv: 45%;
+    --larguradiv: 30%;
+    --fundotexto: #ECD0A2;
+  }
+.containerpersonagens{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 5%;
+ 
+}
+.personagens{
+    background-color: var(--fundotexto);
+    width: var(--larguradiv);
+    height: var(--alturadiv);
+}

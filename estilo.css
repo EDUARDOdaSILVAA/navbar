@@ -1,7 +1,7 @@
 :root{
     --fundoheader: #1f2924;
     --letras: #B03728;
-    --fundotexto: #A4ADA7;
+    --fundotexto: #ECD0A2;
     --corClara: white;
     --larguraside: 100%;
     --alturaside: 100vh;
@@ -22,7 +22,8 @@ img {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    z-index: 1;
+    background-color: var(--fundotexto);
+ 
 }
 header{
     background-color: var(--fundoheader);
@@ -62,6 +63,7 @@ header{
     border-radius: 150px;
     display: inline-block;
     padding: 10px;
+    
     
 }
 .p_redondo{
