@@ -1,6 +1,6 @@
 :root{
     --fundoheader: #1F2924;
-    --letras: #41ad4e;
+    --letras: #B03728;
     --fundotexto: #A4ADA7;
     --corClara: white;
     --larguraside: 100%;
@@ -15,15 +15,19 @@
     font-family: sans-serif;
 
 }
-header{
-    background-color: var(--fundoheader);
-    
-}
 .container{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     z-index: 1;
+}
+header{
+    background-color: var(--fundoheader);
+    
+}
+.banner{
+    background-color: var(--fundoheader);
+    height: 100px;
 }
 .aside{
     
@@ -78,6 +82,10 @@ a{
     text-decoration: none;
 }
 .navbar{
+    position: sticky;
+    background-color: var(--fundoheader);
+    top: 0;
+    width: 100%;
     min-height: 70px;
     display: flex;
     align-items: center;
