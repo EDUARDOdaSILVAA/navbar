@@ -17,6 +17,11 @@
 }
 .banner_img {
     mix-blend-mode: lighten;
+    height:100%
+  }
+.banner_img_machado {
+    mix-blend-mode: lighten;
+    height:100%
   }
 .container{
     display: flex;
@@ -31,7 +36,9 @@ header{
 }
 .banner{
     background-color: var(--fundoheader);
-    height: 100px;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
 }
 .aside{
     
@@ -127,6 +134,9 @@ a{
     transition: all 0.3s ease-in-out;
 }
 @media (max-width:768px){
+    .banner_img_machado {
+        width: 80%;
+      }
     .barras{
         display: block;
     }
