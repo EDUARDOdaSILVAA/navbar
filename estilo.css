@@ -17,11 +17,10 @@
 }
 .banner_img {
     mix-blend-mode: lighten;
-    height:100%
   }
 .banner_img_machado {
     mix-blend-mode: lighten;
-    height:100%
+    
   }
 .container{
     display: flex;
