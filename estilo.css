@@ -79,14 +79,18 @@ header{
     display: inline-block;
     padding: 10px;
 }
+p{
+    text-align: justify;
+}
 .amain{
     background: linear-gradient(to top, rgba(212, 191, 2, 1.5), rgba(212, 191, 2, 0.0)), url('https://media.tribunadointerior.com.br/2023/01/5abfa16c-utfpr-nova-2022-scaled.jpg') no-repeat center center fixed;
     background-size: cover;
     width: var(--larguraside);
-    height: var(--alturaside);
+    height: 30vh;
 }
 li{
     list-style: none;
+    margin: 10px;
 }
 a{
     color: var(--letras);
