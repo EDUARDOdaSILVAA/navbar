@@ -4,6 +4,7 @@
     --fundoheader: #1f2924;
     --letras: #B03728;
     --fundotexto: #ECD0A2;
+    --fundotexto2: #dec8a4;
     --corClara: white;
     --larguraside: 100%;
     --alturaside: 100vh;
@@ -47,6 +48,14 @@
 -20px 20px 0px 0px rgba(33,33,33,0.7),
 -30px 30px 0px 0px rgba(33,33,33,0.4),
 -40px 40px 0px 0px rgba(33,33,33,0.1);
+}
+.texto_conteudo{
+    margin-left: 1rem;
+    width: 95%;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: var(--fundotexto2);
+    box-shadow: 5px 5px 8px 0px rgba(0,0,0,0.3) inset;
 }
 header{
     background-color: var(--fundoheader);
