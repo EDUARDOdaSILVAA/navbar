@@ -140,6 +140,7 @@ a{
     align-items: center;
     justify-content: space-between;
     padding: 0 34px;
+    z-index: 1;
 }
 .logo{
     font-size: 2rem;
