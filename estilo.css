@@ -1,12 +1,17 @@
+@import url('https://fonts.googleapis.com/css2? family= Hedvig+Letters+Serif & family= Lora:ital@1 & family= Oswald:wght@500 & family= Young+Serif & exibir=trocar');
+
 :root{
     --fundoheader: #1f2924;
     --letras: #B03728;
     --fundotexto: #ECD0A2;
+    --fundotexto2: #dec8a4;
     --corClara: white;
     --larguraside: 100%;
     --alturaside: 100vh;
     --letras2: #828C8C;
     --fundoutfo: rgb(212, 191, 2);
+    --titulo: 'Hedvig Letters Serif', serif;
+    --conteudo: 'Lora', serif;
   }
 *{
     margin: 0;
@@ -44,6 +49,14 @@
 -30px 30px 0px 0px rgba(33,33,33,0.4),
 -40px 40px 0px 0px rgba(33,33,33,0.1);
 }
+.texto_conteudo{
+    margin-left: 1rem;
+    width: 95%;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: var(--fundotexto2);
+    box-shadow: 5px 5px 8px 0px rgba(0,0,0,0.3) inset;
+}
 header{
     background-color: var(--fundoheader);
     
@@ -78,6 +91,12 @@ header{
     background-color: var(--fundoutfo);
     width: var(--larguraside);
     height: var(--alturaside)+20px;
+}
+.texto > h1 > a{
+    font-family: var(--titulo);
+    }
+.texto > p{
+    font-family: var(--conteudo);
 }
 .h1_redondo{
     background-color: rgba(0, 0, 0, 0.5);
@@ -125,6 +144,7 @@ a{
 .logo{
     font-size: 2rem;
     font-weight: bold;
+    font-family: var(--titulo);
 
 }
 .menu_Nav{
