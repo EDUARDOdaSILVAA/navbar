@@ -1,17 +1,39 @@
-:root{
-    --alturadiv: 45%;
-    --larguradiv: 30%;
-    --fundotexto: #ECD0A2;
-  }
+
 .containerpersonagens{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        gap: 5%;
- 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.personagens{
-    background-color: var(--fundotexto);
-    width: var(--larguradiv);
-    height: var(--alturadiv);
+.personagens {
+  background-color: var(--fundotexto);
+  padding: 20px; /* Adiciona um espaçamento interno para melhorar a legibilidade */
+  margin-bottom: 20px; /* Adiciona uma margem na parte inferior para separar as divs */
+  border-radius: 8px; /* Adicione bordas arredondadas */
+
+  /* Adiciona uma sombra para destacar a div */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  /* Centraliza o conteúdo na div */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.personagens h1 {
+  color: #333; /* Cor do título */
+  margin-bottom: 10px; /* Adicione espaço abaixo do título */
+}
+
+.personagens p {
+  color: #666; 
+  text-align: justify; /* Justifica o texto  */
+  line-height: 1.5; /* Ajusta a altura da linha  */
+}
+
+.personagens img {
+  width: 100%; 
+  border-radius: 8px; 
+  margin-top: 10px; 
 }
