@@ -77,7 +77,7 @@ header{
 .conteudo{
     background-color: var(--fundoutfo);
     width: var(--larguraside);
-    height: var(--alturaside);
+    height: var(--alturaside)+20px;
 }
 .h1_redondo{
     background-color: rgba(0, 0, 0, 0.5);
