@@ -98,6 +98,12 @@ header{
 .texto > p{
     font-family: var(--conteudo);
 }
+.titulo{
+    font-family: var(--titulo);
+}
+.personagens > p{
+    font-family: var(--conteudo);
+}
 .h1_redondo{
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 150px;
