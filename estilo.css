@@ -12,27 +12,66 @@
     --fundoutfo: rgb(212, 191, 2);
     --titulo: 'Hedvig Letters Serif', serif;
     --conteudo: 'Lora', serif;
-  }
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-
+    
 }
-.banner_img {
-    mix-blend-mode: lighten;
-  }
+header{
+    background-color: var(--fundoheader);
+    
+}
+.banner{
+    background-color: var(--fundoheader);
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+}
 .banner_img_machado {
     mix-blend-mode: lighten;
     
-  }
+}
+.banner_img {
+    mix-blend-mode: lighten;
+}
+.navbar{
+    position: sticky;
+    background-color: var(--fundoheader);
+    top: 0;
+    width: 100%;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 34px;
+    z-index: 1;
+}
+.logo{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: var(--titulo);
+
+}
+.menu_Nav{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
 .container{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     background-color: var(--fundotexto);
- 
+    
+}
+.texto > h1 > a{
+    font-family: var(--titulo);
+    }
+.texto > p{
+    font-family: var(--conteudo);
 }
 .livro_capa{
     display: flex;
@@ -57,16 +96,6 @@
     background-color: var(--fundotexto2);
     box-shadow: 5px 5px 8px 0px rgba(0,0,0,0.3) inset;
 }
-header{
-    background-color: var(--fundoheader);
-    
-}
-.banner{
-    background-color: var(--fundoheader);
-    height: 130px;
-    display: flex;
-    justify-content: space-between;
-}
 .aside{
     
     background: url('https://media.tribunadointerior.com.br/2023/01/5abfa16c-utfpr-nova-2022-scaled.jpg') no-repeat center center fixed;
@@ -84,26 +113,6 @@ header{
     
     flex-wrap: wrap;
 }
-.sumario{
-    color: #010101;
-}
-.conteudo{
-    background-color: var(--fundoutfo);
-    width: var(--larguraside);
-    height: var(--alturaside)+20px;
-}
-.texto > h1 > a{
-    font-family: var(--titulo);
-    }
-.texto > p{
-    font-family: var(--conteudo);
-}
-.titulo{
-    font-family: var(--titulo);
-}
-.personagens > p{
-    font-family: var(--conteudo);
-}
 .h1_redondo{
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 150px;
@@ -119,14 +128,25 @@ header{
     display: inline-block;
     padding: 10px;
 }
-p{
-    text-align: justify;
-}
 .amain{
     background: linear-gradient(to top, rgba(212, 191, 2, 1.5), rgba(212, 191, 2, 0.0)), url('https://media.tribunadointerior.com.br/2023/01/5abfa16c-utfpr-nova-2022-scaled.jpg') no-repeat center center fixed;
     background-size: cover;
     width: var(--larguraside);
     height: 30vh;
+}
+.conteudo{
+    background-color: var(--fundoutfo);
+    width: var(--larguraside);
+    height: var(--alturaside)+20px;
+}
+.titulo{
+    font-family: var(--titulo);
+}
+.personagens > p{
+    font-family: var(--conteudo);
+}
+p{
+    text-align: justify;
 }
 li{
     list-style: none;
@@ -135,29 +155,6 @@ li{
 a{
     color: var(--letras);
     text-decoration: none;
-}
-.navbar{
-    position: sticky;
-    background-color: var(--fundoheader);
-    top: 0;
-    width: 100%;
-    min-height: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 34px;
-    z-index: 1;
-}
-.logo{
-    font-size: 2rem;
-    font-weight: bold;
-    font-family: var(--titulo);
-
-}
-.menu_Nav{
-    display: flex;
-    align-items: center;
-    gap: 60px;
 }
 .link_nav{
     transition: 0.3s ease;
