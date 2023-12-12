@@ -70,7 +70,7 @@ header{
 .texto > h1 > a{
     font-family: var(--titulo);
     }
-.texto > p{
+.texto_conteudo > p{
     font-family: var(--conteudo);
 }
 .livro_capa{

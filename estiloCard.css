@@ -1,6 +1,6 @@
 .cartao_alunos{
     display: flex;
-    justify-content: space-evenly;
+    justify-content:space-evenly;
     margin-top: 1rem;
     width: 100%;
 }
