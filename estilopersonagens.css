@@ -24,6 +24,9 @@
 .personagens h1 {
   color: #333; /* Cor do título */
   margin-bottom: 10px; /* Adicione espaço abaixo do título */
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 5px 5px 8px 0px rgba(0,0,0,0.3) inset;
 }
 
 .personagens p {
@@ -32,8 +35,19 @@
   line-height: 1.5; /* Ajusta a altura da linha  */
 }
 
-.personagens img {
-  width: 100%; 
-  border-radius: 8px; 
-  margin-top: 10px; 
+.img_personagem {
+  width: 355px;
+  object-fit: cover;
+  margin-top: 90px;
+  margin-bottom: 90px;
+  mix-blend-mode: darken;
+  
+  box-shadow: -10px 10px 0px 0px rgb(255, 0, 0),
+-20px 20px 0px 0px rgba(33,33,33,0.7),
+-30px 30px 0px 0px rgba(255, 0, 0, 0.4),
+-40px 40px 0px 0px rgba(33,33,33,0.1),
+10px -10px 0px 0px rgb(255, 0, 0),
+20px -20px 0px 0px rgba(33,33,33,0.7),
+30px -30px 0px 0px rgba(255, 0, 0, 0.4),
+40px -40px 0px 0px rgba(33,33,33,0.1);
 }
